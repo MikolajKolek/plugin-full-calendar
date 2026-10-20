@@ -197,6 +197,7 @@ nav:
           - API:
                 - architecture/api/index.md
                 - Overview: architecture/api/overview.md
+                - Calendar Agent Specification: architecture/api/agent-spec.md
                 - Public JS API: architecture/api/public-api.md
                 - REST Server: architecture/api/rest-server.md
                 - Scopes & Authorization: architecture/api/scopes-permissions.md
@@ -238,6 +239,7 @@ nav:
                 - ActivityWatch Architecture: architecture/activitywatch/index.md
                 - ActivityWatch Implementation: architecture/activitywatch/implementation.md
                 - Linked Notes to Remote Events: architecture/system/features/event-linked-notes.md
+                - Daily-Note Date Navigation: architecture/system/features/daily-note-date-navigation.md
                 - Note Templating Architecture: architecture/system/features/templates.md
                 - FCR Reminder Companion App: architecture/system/features/fcr-reminder-architecture.md
                 - Break Timer Architecture: architecture/system/features/break-timer-architecture.md

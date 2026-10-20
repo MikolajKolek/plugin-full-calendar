@@ -445,7 +445,6 @@
       }
     },
     "appearance": {
-      "title": "Aparência",
       "highlightCurrentOrNextEvent": "Destacar evento atual ou próximo",
       "highlightCurrentOrNextEventDesc": "Destaca o evento com horário em andamento ou, se nenhum estiver ativo, o próximo evento com horário.",
       "enableLivePreview": {
@@ -792,7 +791,8 @@
       "linkedNotes": {
         "title": "Configurações de notas vinculadas",
         "description": "Defina as configurações para criar notas locais do Obsidian vinculadas a eventos de calendários remotos.",
-        "learnMore": "Guia de notas vinculadas"
+        "learnMore": "Guia de notas vinculadas",
+        "configButton": "Configure linked note settings"
       },
       "defaultCalendar": {
         "label": "Calendário padrão para novos eventos",
@@ -1238,7 +1238,8 @@
       "offlineBanner": {
         "title": "⚠️ Aplicativo Companion offline",
         "message": "O FCR Reminder não está em execução. Inicie o aplicativo Companion para ativar notificações nativas e offline."
-      }
+      },
+      "configButton": "Configure reminder companion settings"
     },
     "footer": {
       "message": "Gostou do que viu?",
@@ -1713,7 +1714,9 @@
       "tokenRefreshFailed": "Falha ao atualizar o token de {{email}}. Tente conectar a conta novamente.",
       "fetchTaskListsFailed": "Falha ao buscar as listas de tarefas de {{email}}. {{message}}"
     },
-    "loading": "Carregando..."
+    "loading": "Carregando...",
+    "description": "Manage Google accounts, authentication, and custom Google Cloud credentials.",
+    "configTooltip": "Configure Google accounts & credentials"
   },
   "outlook": {
     "auth": {
@@ -1775,7 +1778,9 @@
       "fetchCalendars": "Falha ao buscar os calendários do Outlook de {{email}}. {{message}}",
       "unknown": "Erro desconhecido"
     },
-    "loading": "Carregando..."
+    "loading": "Carregando...",
+    "description": "Manage Microsoft Outlook accounts and custom OAuth credentials.",
+    "configTooltip": "Configure Outlook accounts & credentials"
   },
   "ui": {
     "view": {
@@ -2123,9 +2128,8 @@
       "historyClearedNotice": "Histórico de chat do agente limpo."
     },
     "writeBar": {
-      "toggleHistory": "Alternar histórico de chat do agente",
       "clearHistory": "Limpar histórico de chat",
-      "send": "Enviar"
+      "openAgentPanel": "Open full calendar agent panel"
     },
     "notices": {
       "eventApplied": "Evento aplicado ao calendário com sucesso.",
